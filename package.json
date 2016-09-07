@@ -1,0 +1,39 @@
+{
+  "name": "deps-flatlist-webpack",
+  "version": "1.0.0",
+  "description": "(flat)list dependencies of webpack bundles",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard",
+    "test": "npm run lint && tap test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arndissler/deps-flatlist-webpack.git"
+  },
+  "keywords": [
+    "webpack",
+    "license"
+  ],
+  "author": "Arnd Issler <email@arndissler.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arndissler/deps-flatlist-webpack/issues"
+  },
+  "homepage": "https://github.com/arndissler/deps-flatlist-webpack#readme",
+  "devDependencies": {
+    "babel": "6.5.2",
+    "babel-cli": "6.14.0",
+    "babel-core": "6.14.0",
+    "babel-loader": "6.2.5",
+    "lodash": "^4.15.0",
+    "react": "15.3.1",
+    "standard": "^8.0.0",
+    "tap": "^7.0.1",
+    "w3c-blob": "0.0.1"
+  },
+  "dependencies": {
+    "webpack": "^1.13.2",
+    "webpack-dependency-tree": "0.0.2"
+  }
+}
