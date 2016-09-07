@@ -10,10 +10,9 @@ Creates lists for webpack modules
 const getDepList = require('deps-flatlist-webpack')
 const config = require('webpack.config.js')
 
-  getDepList(config)
-    .then((res) => {
-      console.log(res)
-    })
-})
+getDepList(config)
+  .then((res) => {
+    console.log(res)
+  })
 
 ```
