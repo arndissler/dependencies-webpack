@@ -1,4 +1,4 @@
-# dependencies-webpack
+# deps-flatlist-webpack
 
 Creates lists for webpack modules
 
@@ -7,7 +7,7 @@ Creates lists for webpack modules
 
 ```js
 
-const getDepList = require('dependencies-webpack')
+const getDepList = require('deps-flatlist-webpack')
 const config = require('webpack.config.js')
 
   getDepList(config)
